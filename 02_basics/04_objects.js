@@ -59,14 +59,14 @@ const course = {
     courseInstructor: "hitesh"
 }
 
-// course.courseInstructor
-
+// course.courseInstructor  destruction an object
+const {courseInstructor} = course
 const {courseInstructor: instructor} = course
 
 // console.log(courseInstructor);
 console.log(instructor);
 
-// {
+// {json java script object notation
 //     "name": "hitesh",
 //     "coursename": "js in hindi",
 //     "price": "free"
