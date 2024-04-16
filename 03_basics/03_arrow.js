@@ -13,7 +13,7 @@ const user = {
 // user.username = "sam"
 // user.welcomeMessage()
 
-// console.log(this);
+// console.log(this);  // the value for this for browser is window
 
 // function chai(){
 //     let username = "hitesh"
